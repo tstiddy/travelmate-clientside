@@ -347,7 +347,7 @@ function createCommentViewSelf(comment, userFound, landmarkData) {
 
 function initMap(landmarkLatitudeValue, landmarkLongitudeValue, landmarkNameForMap) {
 
-    let URL = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=CmRZAAAAl_v2oJkEPXbqGWsJQFlQJIWS9nHHvd1LoYKXaTbSf2PgslC7CSZInRoaFGnGYe10FIWxF-mcwWPeWDlb_v3WkzMVjcFZJco9Bh_bEeHL019mfJ6nlVNZSvEfSUQ1eKm-EhATpmO79nO47JKV_tX9B4TrGhSDwuC9yoAyLF1yaODkF8OkbV_XRQ&key=AIzaSyDPfNlNw9EPkqQUtnjTWqgZvhIkRJRKbPE'
+    let URL = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=CmRZAAAAl_v2oJkEPXbqGWsJQFlQJIWS9nHHvd1LoYKXaTbSf2PgslC7CSZInRoaFGnGYe10FIWxF-mcwWPeWDlb_v3WkzMVjcFZJco9Bh_bEeHL019mfJ6nlVNZSvEfSUQ1eKm-EhATpmO79nO47JKV_tX9B4TrGhSDwuC9yoAyLF1yaODkF8OkbV_XRQ&key=AIzaSyBoTZoPmpuT9QC-vDfUn3Y-Wv-GJGsTkEM'
 
     let latNum = parseFloat(landmarkLatitudeValue);
     let lngNum = parseFloat(landmarkLongitudeValue);
