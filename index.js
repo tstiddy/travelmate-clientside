@@ -212,7 +212,7 @@ function changeContent(event, userFound) {
 
     const landmarkPicture = event.target.dataset.photo
     const imageTest = document.createElement('img')
-    let URL = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&maxheight=400&photoreference=${landmarkPicture}&key=AIzaSyDPfNlNw9EPkqQUtnjTWqgZvhIkRJRKbPE`
+    let URL = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&maxheight=400&photoreference=${landmarkPicture}&key=AIzaSyBoTZoPmpuT9QC-vDfUn3Y-Wv-GJGsTkEM`
     imageTest.src = URL
     const landmarkName = event.target.dataset.name
 
